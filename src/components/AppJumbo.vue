@@ -6,20 +6,28 @@ export default {
 <template>
     <section class="jumbo">
         <div class="pop d-flex flex-column align-items-end p-2">
-            <div class="demos d-flex justify-content-center align-items-center mb-2">
+            <a href="#">
+                <div class="demos d-flex flex-column justify-content-center align-items-center mb-2 gap-1">
 
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stack"
-                    viewBox="0 0 16 16">
-                    <path
-                        d="m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.598.598 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.598.598 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.598.598 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535L7.733.063z" />
-                    <path
-                        d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.598.598 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.659z" />
-                </svg>
-                <p>Demos</p>
-            </div>
-            <div class="sale justify-content-center align-items-center">
-
-            </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.2em"
+                        viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                            d="M264.5 5.2c14.9-6.9 32.1-6.9 47 0l218.6 101c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 149.8C37.4 145.8 32 137.3 32 128s5.4-17.9 13.9-21.8L264.5 5.2zM476.9 209.6l53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 277.8C37.4 273.8 32 265.3 32 256s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0l152-70.2zm-152 198.2l152-70.2 53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 405.8C37.4 401.8 32 393.3 32 384s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0z" />
+                    </svg>
+                    <h6>Demos</h6>
+                </div>
+            </a>
+            <a href="#">
+                <div class="sale d-flex flex-column justify-content-center align-items-center">
+                    <div class="sale-price d-flex">
+                        <h6 style="padding-bottom: .7rem;">$</h6>
+                        <h4>39</h4>
+                    </div>
+                    <div class="sale-title">
+                        <h6>On Sale</h6>
+                    </div>
+                </div>
+            </a>
         </div>
         <div class="container jumbo-wrap d-flex justify-content-center align-items-center flex-column gap-2">
             <div class="catch text-white">
@@ -39,6 +47,17 @@ export default {
 
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables.scss' as *;
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.demos h6,
+.sale h6,
+.sale h4 {
+    margin: 0;
+}
 
 .jumbo {
     background-image: url('../assets/img/home-slider.jpg');
@@ -74,5 +93,26 @@ export default {
     aspect-ratio: 1/1;
     background-color: white;
     border-radius: 4px;
+
+}
+
+.demos h6,
+.sale h6 {
+    font-size: .6rem;
+    font-weight: 600;
+}
+
+.sale h6 {}
+
+.sale h4 {
+    font-weight: 700;
+}
+
+.sale-price {
+    color: #65BC7B;
+}
+
+svg {
+    fill: #33475B;
 }
 </style>
