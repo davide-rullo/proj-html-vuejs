@@ -95,12 +95,7 @@ export default {
     }
 }
 
-.hrow {
-    width: 15vw;
-    margin: auto;
-    height: 1px;
-    background-color: $avd-primary ;
-}
+
 
 .specialist-description p {
     font-size: .9rem;

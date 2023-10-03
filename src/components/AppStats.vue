@@ -67,7 +67,7 @@ export default {
     background-image: url('../assets/img/home.jpg');
     background-size: cover;
     margin-top: -4rem;
-    height: 900px;
+    height: 765px;
 }
 
 .stats-wrapper {

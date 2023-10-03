@@ -27,4 +27,11 @@ body {
 img {
   max-width: 100%;
 }
+
+.hrow {
+  width: 15vw;
+  margin: auto;
+  height: 1px;
+  background-color: $avd-primary ;
+}
 </style>
