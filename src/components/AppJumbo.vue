@@ -53,6 +53,10 @@ a {
     color: black;
 }
 
+button {
+    letter-spacing: 2px;
+}
+
 .demos h6,
 .sale h6,
 .sale h4 {
