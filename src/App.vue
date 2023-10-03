@@ -1,5 +1,14 @@
 <script>
+export default {
 
+  name: 'App',
+
+  data() {
+    return {
+
+    }
+  }
+}
 </script>
 
 <template>
@@ -8,4 +17,8 @@
 
 <style lang="scss">
 @use './assets/scss/partials/variables.scss' as *;
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 </style>
