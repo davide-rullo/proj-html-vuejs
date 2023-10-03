@@ -85,10 +85,7 @@ export default {
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables.scss' as *;
 
-.specialist {
 
-    height: 600px;
-}
 
 .specialist-row {
     padding-top: 5rem;
