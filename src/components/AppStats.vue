@@ -8,7 +8,7 @@ export default {
         <div class="container stats-wrapper">
             <div class="row row-cols-2 row-cols-md-4">
                 <div class="col p-2">
-                    <div class="stats-card d-flex flex-column justify-content-center align-items-center">
+                    <div class="stats-card d-flex flex-column justify-content-center align-items-center gap-1">
                         <svg xmlns="http://www.w3.org/2000/svg" height="3em"
                             viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                             <path
@@ -19,7 +19,7 @@ export default {
                     </div>
                 </div>
                 <div class="col p-2">
-                    <div class="stats-card d-flex flex-column justify-content-center align-items-center">
+                    <div class="stats-card d-flex flex-column justify-content-center align-items-center gap-1">
                         <svg xmlns="http://www.w3.org/2000/svg" height="3em"
                             viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                             <path
@@ -31,7 +31,7 @@ export default {
                     </div>
                 </div>
                 <div class="col p-2">
-                    <div class="stats-card d-flex flex-column justify-content-center align-items-center">
+                    <div class="stats-card d-flex flex-column justify-content-center align-items-center gap-1">
                         <svg xmlns="http://www.w3.org/2000/svg" height="3em"
                             viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                             <path
@@ -43,7 +43,7 @@ export default {
                     </div>
                 </div>
                 <div class="col p-2">
-                    <div class="stats-card d-flex flex-column justify-content-center align-items-center">
+                    <div class="stats-card d-flex flex-column justify-content-center align-items-center gap-1">
                         <svg xmlns="http://www.w3.org/2000/svg" height="3em"
                             viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                             <path
@@ -87,5 +87,6 @@ svg {
 .stats-name {
     text-transform: uppercase;
     color: white;
+    text-align: center;
 }
 </style>

@@ -1,6 +1,7 @@
 <script>
 import AppCta from './AppCta.vue';
 import AppJumbo from './AppJumbo.vue';
+import AppQuote from './AppQuote.vue';
 import AppSpecialist from './AppSpecialist.vue';
 import AppStats from './AppStats.vue';
 import AppValues from './AppValues.vue';
@@ -8,7 +9,7 @@ import AppWork from './AppWork.vue';
 
 export default {
     name: 'AppMain',
-    components: { AppJumbo, AppCta, AppSpecialist, AppStats, AppWork, AppValues }
+    components: { AppJumbo, AppCta, AppSpecialist, AppStats, AppWork, AppValues, AppQuote }
 }
 </script>
 <template>
@@ -18,6 +19,7 @@ export default {
     <AppStats></AppStats>
     <AppWork></AppWork>
     <AppValues></AppValues>
+    <AppQuote></AppQuote>
 </template>
 
 
