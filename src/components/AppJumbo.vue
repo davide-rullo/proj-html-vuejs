@@ -29,16 +29,22 @@ export default {
                 </div>
             </a>
         </div>
-        <div class="container jumbo-wrap d-flex justify-content-center align-items-center flex-column gap-2">
-            <div class="catch text-white">
-                <h1 class="fw-bold">BUILDING INSPIRING SPACES </h1>
+        <div class="container jumbo-wrap">
+            <div class="row row-cols-1">
+                <div class="col catch text-white text-center">
+                    <h1 class="fw-bold">BUILDING INSPIRING SPACES </h1>
+                </div>
+                <div class="col subtitle text-center">
+                    <h6>We Build Inspiring Residential And Commercial Spaces </h6>
+                </div>
             </div>
-            <div class="subtitle">
-                <h6>We Build Inspiring Residential And Commercial Spaces </h6>
-            </div>
-            <div class="cta d-flex gap-3">
+            <div class="cta">
+
                 <button class="dark-btn">EXPLORE RECENT WORK</button>
+
+
                 <button class="yellow-btn">GET A QUOTE TODAY</button>
+
             </div>
         </div>
     </section>
@@ -67,10 +73,11 @@ button {
     background-image: url('../assets/img/home-slider.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    height: 600px;
 }
 
 .jumbo-wrap {
-    padding: 18rem;
+    padding: 5rem;
 }
 
 .subtitle {
@@ -114,6 +121,12 @@ button {
 
 .sale-price {
     color: #65BC7B;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
 
 svg {

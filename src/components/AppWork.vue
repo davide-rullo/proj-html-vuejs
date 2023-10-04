@@ -50,9 +50,7 @@ export default {
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables.scss' as *;
 
-.works {
-    height: 900px;
-}
+
 
 .work-row p {
     font-size: 1.5rem;
@@ -64,11 +62,16 @@ export default {
 }
 
 .others {
-    padding-top: 3rem;
+    padding-top: 5rem;
 }
 
 .others p {
     margin: 0;
+}
+
+.card-work {
+    display: flex;
+    justify-content: center;
 }
 
 .others-hr {

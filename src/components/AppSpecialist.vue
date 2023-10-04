@@ -103,7 +103,7 @@ export default {
 
 .spec-card {
     background-color: #F5F5F5;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 .circle {
@@ -118,7 +118,7 @@ svg {
 }
 
 .card-describe {
-    font-size: .7rem;
+
     text-align: center;
 }
 </style>

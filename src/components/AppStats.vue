@@ -6,7 +6,7 @@ export default {
 <template>
     <section class="stats">
         <div class="container stats-wrapper">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="row row-cols-2 row-cols-md-4">
                 <div class="col p-2">
                     <div class="stats-card d-flex flex-column justify-content-center align-items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" height="3em"
@@ -64,14 +64,15 @@ export default {
 @use '../assets/scss/partials/variables.scss' as *;
 
 .stats {
-    background-image: url('../assets/img/home.jpg');
+    background-image: url('../assets/img/homecut.jpg');
     background-size: cover;
-    margin-top: -4rem;
+    background-position: center center;
+    margin-top: 3rem;
     height: 765px;
 }
 
 .stats-wrapper {
-    padding-top: 23rem;
+    padding-top: 15rem;
 }
 
 svg {
