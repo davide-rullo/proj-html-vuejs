@@ -175,4 +175,8 @@ footer {
 .cont svg {
     fill: grey;
 }
+
+.contact {
+    gap: 1rem;
+}
 </style>
