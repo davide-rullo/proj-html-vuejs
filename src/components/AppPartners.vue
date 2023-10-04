@@ -4,7 +4,7 @@ export default {
 }
 </script>
 <template>
-    <section class="partners pt-5">
+    <section class="partners pt-5 pb-5">
         <div class="container ">
             <div class="partners-row">
                 <p>Trusted Partners</p>

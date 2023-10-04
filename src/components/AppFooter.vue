@@ -9,7 +9,8 @@ export default {
             <div class="col p-2">
                 <div class="footer-menu">
                     <img src="../assets/img/footer-logo.png" alt="">
-                    <p>We are specialists in the construction of unique and exclusive properties. Our work inspires. We
+                    <p class="summary">We are specialists in the construction of unique and exclusive properties. Our work
+                        inspires. We
                         pride ourselves on delivering outstanding quality and design for leading clients across the world.
                     </p>
                     <div class="yellow-btn justify-content-center">
@@ -22,9 +23,11 @@ export default {
                 <div class="footer-menu">
                     <h6 class="menu-title">LATEST TWEETS</h6>
                     <div class="tweet d-flex">
-                        <img class="tweet-img-pic" src="../assets/img/tweet_normal.png" alt="">
-                        <div class="tweet-text d-flex flex-column">
-                            <p>ThemeFusion</p>
+                        <div class="img-wrap">
+                            <img class="tweet-img-pic" src="../assets/img/tweet_normal.png" alt="">
+                        </div>
+                        <div class="tweet-text d-flex flex-column text-white">
+                            <p class="">ThemeFusion</p>
                             <p>@Theme_Fusion</p>
                             <p>Do you need sublime WordPress hosting for your next Website? Take advantage of exclusive
                                 partner offers that we have secured just for you, & launch your site in seconds with #avada
@@ -56,7 +59,7 @@ export default {
                 </div>
             </div>
             <div class="col p-2">
-                <div class="footer-menu d-flex flex-column">
+                <div class="footer-menu d-flex flex-column cont">
                     <h6 class="menu-title">CONTACT US TODAY</h6>
                     <div class="contact d-flex">
                         <svg xmlns="http://www.w3.org/2000/svg" height="1em"
@@ -131,6 +134,11 @@ export default {
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables.scss' as *;
 
+footer {
+    background-color: $avd-dark;
+    padding: 5rem;
+}
+
 .yellow-btn {
     display: flex;
 
@@ -147,5 +155,24 @@ export default {
 .tweet-img-pic {
     width: 30px;
     height: 30px;
+}
+
+.menu-title {
+    color: $avd-primary;
+}
+
+.img-wrap {
+    width: 40px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+}
+
+.summary,
+.cont {
+    color: grey;
+}
+
+.cont svg {
+    fill: grey;
 }
 </style>
