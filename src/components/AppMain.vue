@@ -8,10 +8,12 @@ import AppValues from './AppValues.vue';
 import AppWork from './AppWork.vue';
 import AppNews from './AppNews.vue';
 import AppPartners from './AppPartners.vue';
+import AppInspiring from './AppInspiring.vue';
+
 
 export default {
     name: 'AppMain',
-    components: { AppJumbo, AppCta, AppSpecialist, AppStats, AppWork, AppValues, AppQuote, AppNews, AppPartners }
+    components: { AppJumbo, AppCta, AppSpecialist, AppStats, AppWork, AppValues, AppQuote, AppNews, AppPartners, AppInspiring }
 }
 </script>
 <template>
@@ -24,6 +26,7 @@ export default {
     <AppQuote></AppQuote>
     <AppNews></AppNews>
     <AppPartners></AppPartners>
+    <AppInspiring></AppInspiring>
 </template>
 
 
