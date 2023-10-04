@@ -72,7 +72,7 @@ export default {
                     </div>
                 </div>
             </div>
-            <div class="others d-flex justify-content-center align-items-center">
+            <div class="others d-flex justify-content-center align-items-center pb-5">
                 <div class="others-hr">
 
                 </div>

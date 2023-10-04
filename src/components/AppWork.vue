@@ -61,23 +61,10 @@ export default {
     font-size: .9rem;
 }
 
-.others {
-    padding-top: 5rem;
-}
 
-.others p {
-    margin: 0;
-}
 
 .card-work {
     display: flex;
     justify-content: center;
-}
-
-.others-hr {
-    width: 15vw;
-    margin: auto;
-    height: 1px;
-    background-color: rgba(0, 0, 0, 0.185);
 }
 </style>
