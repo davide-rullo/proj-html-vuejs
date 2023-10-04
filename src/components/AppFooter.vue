@@ -8,7 +8,7 @@ export default {
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
             <div class="col p-2">
                 <div class="footer-menu">
-                    <img src="../assets/img/footer-logo.png" alt="">
+                    <img src="../assets/img/footer-logo.png" alt="" class="pb-4">
                     <p class="summary">We are specialists in the construction of unique and exclusive properties. Our work
                         inspires. We
                         pride ourselves on delivering outstanding quality and design for leading clients across the world.
@@ -27,7 +27,7 @@ export default {
                             <img class="tweet-img-pic" src="../assets/img/tweet_normal.png" alt="">
                         </div>
                         <div class="tweet-text d-flex flex-column text-white">
-                            <p class="">ThemeFusion</p>
+                            <p style="font-weight: 600;">ThemeFusion</p>
                             <p>@Theme_Fusion</p>
                             <p>Do you need sublime WordPress hosting for your next Website? Take advantage of exclusive
                                 partner offers that we have secured just for you, & launch your site in seconds with #avada
@@ -46,10 +46,10 @@ export default {
                                             d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z" />
                                     </svg>
                                 </div>
-                                <p>22h</p>
+                                <p style="color: #4F5A60;">22h</p>
                             </div>
                         </div>
-                        <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" class="twitter"
                             viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                             <path
                                 d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
@@ -159,6 +159,7 @@ footer {
 
 .menu-title {
     color: $avd-primary;
+    padding-bottom: 1rem;
 }
 
 .img-wrap {
@@ -172,11 +173,33 @@ footer {
     color: grey;
 }
 
+.summary {
+    font-size: .9rem;
+    line-height: 2;
+}
+
 .cont svg {
     fill: grey;
 }
 
 .contact {
     gap: 1rem;
+
+}
+
+
+
+.img-icons svg {
+    fill: #4F5A60;
+    padding-right: 1rem;
+}
+
+.img-wrap {
+    width: 300px;
+}
+
+.twitter {
+    width: 300px;
+    fill: grey;
 }
 </style>
