@@ -6,10 +6,11 @@ import AppSpecialist from './AppSpecialist.vue';
 import AppStats from './AppStats.vue';
 import AppValues from './AppValues.vue';
 import AppWork from './AppWork.vue';
+import AppNews from './AppNews.vue'
 
 export default {
     name: 'AppMain',
-    components: { AppJumbo, AppCta, AppSpecialist, AppStats, AppWork, AppValues, AppQuote }
+    components: { AppJumbo, AppCta, AppSpecialist, AppStats, AppWork, AppValues, AppQuote, AppNews }
 }
 </script>
 <template>
@@ -20,6 +21,7 @@ export default {
     <AppWork></AppWork>
     <AppValues></AppValues>
     <AppQuote></AppQuote>
+    <AppNews></AppNews>
 </template>
 
 

@@ -34,4 +34,19 @@ img {
   height: 1px;
   background-color: $avd-primary ;
 }
+
+.others {
+  padding-top: 5rem;
+}
+
+.others p {
+  margin: 0;
+}
+
+.others-hr {
+  width: 15vw;
+  margin: auto;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.185);
+}
 </style>
