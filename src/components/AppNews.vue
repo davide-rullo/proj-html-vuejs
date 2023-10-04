@@ -1,0 +1,11 @@
+        
+<script>
+export default {
+    name: 'AppNews'
+}
+</script>
+<template>
+    <h1>prova</h1>
+</template>
+
+<style lang="scss" scoped></style>

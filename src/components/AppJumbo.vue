@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'Appjumbo'
+    name: 'AppJumbo'
 }
 </script>
 <template>
@@ -113,7 +113,7 @@ button {
     font-weight: 600;
 }
 
-.sale h6 {}
+
 
 .sale h4 {
     font-weight: 700;
