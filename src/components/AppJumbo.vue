@@ -132,4 +132,14 @@ button {
 svg {
     fill: #33475B;
 }
+
+.dark-btn:hover {
+    background-color: $avd-primary;
+    color: $avd-lightDark;
+}
+
+.yellow-btn:hover {
+    background-color: $avd-lightDark;
+    color: $avd-white;
+}
 </style>

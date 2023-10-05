@@ -48,4 +48,10 @@ export default {
     letter-spacing: 3px;
 
 }
+
+.cta-btn:hover {
+    background-color: $avd-white;
+    color: $avd-lightDark;
+    border: 1px solid black;
+}
 </style>

@@ -170,7 +170,7 @@ footer {
 }
 
 .footer-row {
-    padding: 0 4rem;
+    padding: 4rem 4rem;
 }
 
 .yellow-btn {
