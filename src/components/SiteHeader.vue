@@ -14,7 +14,7 @@ export default {
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid header-wrapper">
                 <a class="navbar-brand" href="#">
-                    <img src="../assets/img/construction_logo.png" alt="Avada Construction">
+                    <img src="../assets/img/construction_logo_retina.png" alt="Avada Construction">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                     aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +46,7 @@ export default {
 }
 
 .navbar-brand img {
-    width: 8rem;
+    width: 10rem;
 }
 
 .nav-item {

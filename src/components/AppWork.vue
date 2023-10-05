@@ -179,4 +179,8 @@ export default {
 .category {
     font-size: .9rem;
 }
+
+.circle {
+    cursor: pointer;
+}
 </style>

@@ -205,6 +205,7 @@ h6 {
     border-radius: 100%;
     background-color: white;
     display: none;
+    cursor: pointer;
 
     svg {
         fill: $avd-primary;

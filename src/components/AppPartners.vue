@@ -19,27 +19,27 @@ export default {
             <div class="row row-cols-1 row-cols-sm-3 row-cols-md-5">
                 <div class="col p-2">
                     <div class="company">
-                        <img src="../assets/img/home-logo11-219096700-320x202.png" alt="">
+                        <a href="#"><img src="../assets/img/home-logo11-219096700-320x202.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col p-2">
                     <div class="company">
-                        <img src="../assets/img/home-logo10-219096700-320x202.png" alt="">
+                        <a href="#"><img src="../assets/img/home-logo10-219096700-320x202.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col p-2">
                     <div class="company">
-                        <img src="../assets/img/home-logo2-219096700-320x202.png" alt="">
+                        <a href="#"><img src="../assets/img/home-logo2-219096700-320x202.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col p-2">
                     <div class="company">
-                        <img src="../assets/img/home-logo1-219096700-320x202.png" alt="">
+                        <a href="#"><img src="../assets/img/home-logo1-219096700-320x202.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col p-2">
                     <div class="company">
-                        <img src="../assets/img/home-logo9-219096700-320x202.png" alt="">
+                        <a href="#"><img src="../assets/img/home-logo9-219096700-320x202.png" alt=""></a>
                     </div>
                 </div>
             </div>

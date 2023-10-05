@@ -126,4 +126,12 @@ img {
     width: 60%;
     margin: auto;
 }
+
+svg {
+    cursor: pointer;
+}
+
+p {
+    font-size: 1.3rem;
+}
 </style>
