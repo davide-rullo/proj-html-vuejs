@@ -1,5 +1,8 @@
 <script>
+import pic from '../assets/img/tweet_normal.png';
+import messagePic from '../assets/img/En2TRxLW4AEiWUN.jpeg';
 export default {
+
     name: 'AppFooter',
     data() {
         return {
@@ -8,9 +11,9 @@ export default {
                 {
                     username: 'ThemeFusion',
                     tag: 'Theme_fusion',
-                    pic: '../assets/img/tweet_normal.png',
+                    pic: pic,
                     message: 'Do you need sublime WordPress hosting for your next Website? Take advantage of exclusive partner offers that we have secured just for you, & launch your site in seconds with #avada on WP Engine hosting & get 30% Off this Black Friday  bit.ly3kjlle2 #BlackFriday2020',
-                    messagePic: '../assets/img/En2TRxLW4AEiWUN.jpeg'
+                    messagePic: messagePic
                 }
 
 
@@ -43,14 +46,14 @@ export default {
                         <h6 class="menu-title">LATEST TWEETS</h6>
                         <div v-for="tweet in tweets" class="tweet d-flex">
                             <div class="img-wrap">
-                                <img class="tweet-img-pic" src="../assets/img/tweet_normal.png" alt="">
+                                <img class="tweet-img-pic" :src="tweet.pic" alt="">
                             </div>
                             <div class="tweet-text d-flex flex-column text-white">
                                 <p style="font-weight: 600;">{{ tweet.username }}</p>
                                 <p class="tag">@{{ tweet.tag }}</p>
                                 <p>{{ tweet.message }}
                                 </p>
-                                <img src="../assets/img/En2TRxLW4AEiWUN.jpeg" alt="">
+                                <img :src="tweet.messagePic" alt="">
                                 <div class="img-btn d-flex justify-content-between">
                                     <div class="img-icons">
                                         <svg xmlns="http://www.w3.org/2000/svg" height="1em"
