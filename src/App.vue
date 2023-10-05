@@ -7,14 +7,32 @@ import SiteHeader from './components/SiteHeader.vue';
 export default {
   name: 'App',
   data() {
-    return {};
+    return {
+      items: [
+        {
+          name: 'Home'
+        },
+        {
+          name: 'About'
+        },
+        {
+          name: 'Services'
+        },
+        {
+          name: 'Work'
+        },
+        {
+          name: 'Articles'
+        },
+      ]
+    };
   },
   components: { AppMain, AppFooter, SiteHeader }
 }
 </script>
 
 <template>
-  <SiteHeader></SiteHeader>
+  <SiteHeader :items="items"></SiteHeader>
   <AppMain></AppMain>
   <AppFooter></AppFooter>
 </template>

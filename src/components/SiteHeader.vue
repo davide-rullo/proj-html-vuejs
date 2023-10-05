@@ -1,27 +1,12 @@
 <script>
 export default {
     name: 'SiteHeader',
-    data() {
-        return {
-            items: [
-                {
-                    name: 'Home'
-                },
-                {
-                    name: 'About'
-                },
-                {
-                    name: 'Services'
-                },
-                {
-                    name: 'Work'
-                },
-                {
-                    name: 'Articles'
-                },
-            ]
-        }
-    },
+    props: {
+        items: {
+            type: Array,
+        },
+    }
+
 }
 </script>
 <template>
