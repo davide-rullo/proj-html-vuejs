@@ -137,11 +137,13 @@ svg {
 .dark-btn:hover {
     background-color: $avd-primary;
     color: $avd-lightDark;
+    transition: .3s linear;
 }
 
 .yellow-btn:hover {
     background-color: $avd-lightDark;
     color: $avd-white;
+    transition: .3s linear;
 }
 
 .pop {

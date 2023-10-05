@@ -165,11 +165,15 @@ svg {
 
 .wrapper:hover .circle {
     background-color: $avd-primary;
+    transition: .3s linear;
 }
 
 .wrapper:hover .value-title {
     color: $avd-primary;
+    transition: .3s linear;
 }
+
+
 
 .circle {
     margin-bottom: 0.7rem;

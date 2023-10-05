@@ -219,17 +219,22 @@ h6 {
 .card:hover .hide {
     display: flex;
     color: white;
+
 }
 
 .card:hover img {
     display: none;
+
 }
 
 .card:hover .circle {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
+
+
 
 .hidden-text {
     gap: 1rem;

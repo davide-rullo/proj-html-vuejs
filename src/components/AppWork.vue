@@ -170,6 +170,7 @@ export default {
 
 .col:hover {
     background-color: $avd-primary;
+    transition: all .5s linear;
 }
 
 .hover-title {

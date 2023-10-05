@@ -283,5 +283,6 @@ footer {
 .yellow-btn button:hover {
     background-color: $avd-lightDark;
     color: $avd-white;
+    transition: all .3s linear;
 }
 </style>

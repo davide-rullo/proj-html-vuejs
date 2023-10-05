@@ -73,5 +73,6 @@ export default {
 button:hover {
     background-color: $avd-lightDark;
     color: $avd-white;
+    transition: .3s linear;
 }
 </style>

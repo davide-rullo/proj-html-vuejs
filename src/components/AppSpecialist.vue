@@ -163,6 +163,7 @@ svg {
 
 .spec-card:hover {
     background-color: $avd-primary;
+    transition: .3s linear;
 }
 
 .hidden-btn {
