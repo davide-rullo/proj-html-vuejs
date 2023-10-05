@@ -73,4 +73,9 @@ export default {
     color: #000000A6;
     padding: 1rem 2rem;
 }
+
+.yellow-btn button:hover {
+    background-color: $avd-lightDark;
+    color: $avd-white;
+}
 </style>

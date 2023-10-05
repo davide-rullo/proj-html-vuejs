@@ -261,4 +261,9 @@ footer {
 .highlight {
     color: rgb(34, 130, 255);
 }
+
+.yellow-btn button:hover {
+    background-color: $avd-lightDark;
+    color: $avd-white;
+}
 </style>
