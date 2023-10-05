@@ -19,7 +19,7 @@ export default {
             </div>
             <div class="row row-cols-1 row-cols-sm-3">
                 <div class="col p-2 d-flex align-items-center justify-content-center flex-column text-white gap-2">
-                    <div class="circle-row d-flex">
+                    <div class="circle-row d-flex gap-2">
                         <div class="circle hide"><svg xmlns="http://www.w3.org/2000/svg" height="1.5em"
                                 viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                                 <path
@@ -48,7 +48,7 @@ export default {
                     </div>
                 </div>
                 <div class="col p-2 d-flex align-items-center justify-content-center flex-column text-white gap-2">
-                    <div class="circle-row d-flex">
+                    <div class="circle-row d-flex gap-2">
                         <div class="circle hide"><svg xmlns="http://www.w3.org/2000/svg" height="1.5em"
                                 viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                                 <path
@@ -77,7 +77,7 @@ export default {
                     </div>
                 </div>
                 <div class="col p-2 d-flex align-items-center justify-content-center flex-column text-white gap-2">
-                    <div class="circle-row d-flex">
+                    <div class="circle-row d-flex gap-2">
                         <div class="circle hide"><svg xmlns="http://www.w3.org/2000/svg" height="1.5em"
                                 viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                                 <path
