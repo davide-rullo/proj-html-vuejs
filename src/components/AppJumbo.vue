@@ -32,9 +32,9 @@ export default {
         <div class="container jumbo-wrap">
             <div class="row row-cols-1">
                 <div class="col catch text-white text-center">
-                    <h1 class="fw-bold">BUILDING INSPIRING SPACES </h1>
+                    <h1 class="fw-bold pb-2">BUILDING INSPIRING SPACES </h1>
                 </div>
-                <div class="col subtitle text-center">
+                <div class="col subtitle text-center pb-4">
                     <h6>We Build Inspiring Residential And Commercial Spaces </h6>
                 </div>
             </div>

@@ -1,6 +1,27 @@
 <script>
 export default {
-    name: 'SiteHeader'
+    name: 'SiteHeader',
+    data() {
+        return {
+            items: [
+                {
+                    name: 'Home'
+                },
+                {
+                    name: 'About'
+                },
+                {
+                    name: 'Services'
+                },
+                {
+                    name: 'Work'
+                },
+                {
+                    name: 'Articles'
+                },
+            ]
+        }
+    },
 }
 </script>
 <template>
@@ -16,21 +37,10 @@ export default {
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
                     <ul class="navbar-nav mb-2 mb-lg-0 gap-4">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <li v-for="item in items" class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">{{ item.name }}</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Work</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Articles</a>
-                        </li>
+
                         <div class="yellow-btn">
                             <button>GET QUOTE</button>
                         </div>
