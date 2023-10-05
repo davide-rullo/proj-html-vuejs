@@ -4,7 +4,7 @@ export default {
 }
 </script>
 <template>
-    <section class="jumbo">
+    <section class="jumbo d-flex align-items-center justify-content-center">
         <div class="pop d-flex flex-column align-items-end p-2">
             <a href="#">
                 <div class="demos d-flex flex-column justify-content-center align-items-center mb-2 gap-1">
@@ -73,7 +73,8 @@ button {
     background-image: url('../assets/img/home-slider.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 780px;
+    position: relative;
 }
 
 .jumbo-wrap {
@@ -141,5 +142,11 @@ svg {
 .yellow-btn:hover {
     background-color: $avd-lightDark;
     color: $avd-white;
+}
+
+.pop {
+    position: absolute;
+    right: 10px;
+    top: 20px;
 }
 </style>
