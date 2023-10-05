@@ -1,7 +1,7 @@
 <script>
 import AppFooter from './components/AppFooter.vue';
-import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
+import SiteHeader from './components/SiteHeader.vue';
 
 
 export default {
@@ -9,12 +9,12 @@ export default {
   data() {
     return {};
   },
-  components: { AppHeader, AppMain, AppFooter }
+  components: { AppMain, AppFooter, SiteHeader }
 }
 </script>
 
 <template>
-  <AppHeader></AppHeader>
+  <SiteHeader></SiteHeader>
   <AppMain></AppMain>
   <AppFooter></AppFooter>
 </template>
